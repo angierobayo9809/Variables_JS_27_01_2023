@@ -8,5 +8,7 @@ console.log(`Es mujer: ${esMujer}`);
 let otrosDatos = new Object({colorFavorito: "Azul", 
                   animalPreferido: "Perro",
                   frutaFavorita: "Granadilla"});
-console.log("Datos adicionales:");
-console.log({otrosDatos});
+console.log(`Datos adicionales`);
+console.log(`Color Favorito: ${otrosDatos.colorFavorito
+                                +", Animal Preferido: "+ otrosDatos.animalPreferido 
+                                +", Fruta Favorita: "+ otrosDatos.frutaFavorita}`);
