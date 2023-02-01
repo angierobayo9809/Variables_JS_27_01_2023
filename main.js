@@ -12,3 +12,7 @@ console.log(`Datos adicionales`);
 console.log(`Color Favorito: ${otrosDatos.colorFavorito
                                 +", Animal Preferido: "+ otrosDatos.animalPreferido 
                                 +", Fruta Favorita: "+ otrosDatos.frutaFavorita}`);
+
+alert("Esta es una alerta!!");
+confirm("¿Quieres continuar a la siguiente alerta?");
+prompt("Ingresa la palabra 'OK' si te quedó claro todo.");
